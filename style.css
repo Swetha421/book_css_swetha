@@ -1,0 +1,148 @@
+
+        .mystyle{
+            text-align: center;
+            color: #10486d;
+        
+            font-family: 'Times New Roman', Times, serif;
+        }
+        p{
+            font-size: 20px;
+        }
+        .para{ background-color: rgb(201, 198, 250); 
+            padding-left: 50px;
+            border-style:double;
+            border-width: 10px;
+            border-color: aquamarine;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            outline-style: solid;
+            overflow:scroll;
+            
+        }
+        a:active{
+            color: chartreuse;
+            font-size: 25px;
+            
+
+        }
+        ul{
+            list-style-type:square ;
+            list-style-position:inherit;
+        }
+        li{
+            font-size: 20px;
+        }
+        img{
+            height: 150px;
+            width: 100px;
+            float: left;
+
+            
+        }
+        img:hover{
+            opacity: 0.8;
+        }
+    div.im{
+        height: 200px;
+        width: 1300px;
+        margin-left: 200px;
+    }
+    #me{
+        text-decoration:underline;
+        text-decoration-style: dotted;
+        text-decoration-color: blueviolet;
+        text-shadow:1px 2px black;
+    
+    }
+    table th,td,tr{
+        border-style:solid;
+        border-width: 20px;
+        margin:auto;
+        
+    }
+    th{
+        font-style: italic;
+        font-size: large;
+    }
+    .navbar{
+        text-decoration:none;
+        display: flex;
+        list-style-type: none;
+        padding:0%;
+        gap: 6px;
+        background-color: brown;
+
+    }
+    .d2{
+        list-style-type: none;
+        text-decoration: underline;
+        font-style: italic;
+        font-size:x-large;
+        
+    }
+    .image{ 
+        float: left;
+        
+    }
+    /* .cl{
+      
+        float: left;
+       text-align: justify;
+    } */
+    .cl{
+        float: left;
+    }
+    .cl.side{
+        width: 25%;
+    }
+    .cl.main{
+        width: 50%;
+    }
+    @media only screen and (max-width:600px){
+        p{
+            font-size: 10px;
+        }
+        .navbar{
+            display:block;
+        }
+        img{
+            height: 100px;
+            width: 50px;
+        }
+        
+    }
+    a{
+        text-decoration: none;
+    
+    }
+    .cl .side{
+        width: 100%;
+    }
+    .cl .main{
+        width: 100%;
+    }
+    .row:after{
+        content: "";
+        display: table;
+        clear:both
+    }
+    .row{
+        display:flex;
+        
+        
+    }
+    
+        
+        
+    
+    h2{
+        text-align: center;
+    }
+    img{
+        width: 200px;
+        height: 200px;
+
+        padding: 5px;
+    }
+    
